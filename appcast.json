@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0",
-  "notes": "Mirage v2 — live joystick, route simulation + GPX, satellite/hybrid maps, search history, tunnel health with auto-reconnect, in-app updates, and an onboarding feature tour.",
+  "version": "2.1.0",
+  "notes": "Licensing: accounts, tiers (free/basic/pro/family), per-plan device limits, a free tier (1 device-locked teleport) with a branded upsell, and usage tracking (last used + IP).",
   "url": "https://github.com/xXWapixelXx/Mirage-updates/releases/latest"
 }

@@ -13,11 +13,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "2.0.0",
+          "version": "2.1.0",
           "date": "2026-07-22",
-          "localizedDescription": "Mirage v2 — joystick, routes + GPX, map styles, search history, tunnel health, in-app updates.",
-          "downloadURL": "https://github.com/xXWapixelXx/Mirage-updates/releases/download/v2.0.0/Mirage.ipa",
-          "size": 10270462,
+          "localizedDescription": "Mirage v2.1 \u2014 licensing, tiers, free tier, usage tracking.",
+          "downloadURL": "https://github.com/xXWapixelXx/Mirage-updates/releases/download/v2.1.0/Mirage.ipa",
+          "size": 10408841,
           "minOSVersion": "17.0"
         }
       ]
