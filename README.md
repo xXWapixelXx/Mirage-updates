@@ -71,6 +71,12 @@ Mirage is currently **invite-only**. Want in? Reach out:
 - **GitHub** — [@xXWapixelXx](https://github.com/xXWapixelXx)
 - **Discord** — `wapixel`
 
+## 🛠️ Setup
+
+Installing takes seconds; GPS spoofing needs a **one-time** pairing step (any
+computer, once per device — no jailbreak, no Mac required). Full walkthrough in
+**[SETUP.md](SETUP.md)**.
+
 ---
 
 <div align="center">
