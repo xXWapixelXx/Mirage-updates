@@ -1,14 +1,77 @@
-# Mirage — update manifest
+<div align="center">
 
-Public update feed for the private **Mirage** app. Mirage's in-app update check
-reads `appcast.json` here.
+# 🛰️ Mirage
 
-## Publish a new version
-1. Ship the new build (bump `MARKETING_VERSION`).
-2. Edit `appcast.json`:
-   - `version` — the new version (e.g. `1.5.0`)
-   - `notes` — what's new (shown in-app)
-   - `url` — where users get it (SideStore source, IPA link, or a page)
-3. Commit + push. Mirage picks it up on next check (Settings → Updates).
+### Teleport your iPhone's location anywhere in the world.
 
-Only bump `version` above the shipped build when an update is actually available.
+*A native iOS location spoofer — real GPS override, live movement, and route simulation, all on-device.*
+
+![platform](https://img.shields.io/badge/platform-iOS%2017%2B-black)
+![build](https://img.shields.io/badge/type-native%20SwiftUI-blue)
+![privacy](https://img.shields.io/badge/privacy-on--device-brightgreen)
+
+</div>
+
+---
+
+## What is Mirage?
+
+Mirage makes your iPhone believe it's somewhere else. Drop a pin anywhere on the
+map, tap **Teleport**, and your device reports that location to every app — not a
+fake wrapper, but the real system location. Walk around with a joystick, follow a
+drawn route, or import a GPX track and let Mirage travel it for you.
+
+It's built as a clean, fast SwiftUI app with a maps-first design — no clutter,
+no ads, no data leaving your phone.
+
+## ✨ Features
+
+### 📍 Real GPS override
+Beats plain WiFi tricks — Mirage overrides the actual satellite-GPS location, so
+it works everywhere apps read your position.
+
+### 🕹️ Live joystick
+Flip on movement mode and *walk* your location in real time with an analog
+joystick — pick a speed from strolling to driving. The map and beacon follow you
+smoothly.
+
+### 🗺️ Route simulation + GPX
+Tap waypoints or freehand-draw a path on the map, then let Mirage travel it
+automatically at your chosen speed. Loop it, or import & export routes as **GPX**
+to share and reuse.
+
+### 🌍 Map your way
+Switch between **Standard**, **Hybrid**, and **Satellite** maps, search any place
+in the world, and jump back to recent searches in a tap.
+
+### 💓 Rock-solid connection
+A built-in health monitor keeps the location link alive and auto-reconnects if it
+ever drops — so your spoof stays put while you use other apps.
+
+### 🔒 Private by design
+Everything runs **on your device**. No location history is uploaded, no tracking,
+no third-party analytics on where you go.
+
+### ⬆️ Stays up to date
+Mirage checks for new versions on its own and lets you know when an update is
+ready.
+
+## 📲 Requirements
+
+- iPhone on **iOS 17 or later**
+- Installed via sideloading (SideStore / AltStore or a signed build)
+
+## 🚀 Getting access
+
+Mirage is currently **invite-only**. Want in? Reach out:
+
+- **GitHub** — [@xXWapixelXx](https://github.com/xXWapixelXx)
+- **Discord** — `wapixel`
+
+---
+
+<div align="center">
+
+*Mirage · made by Wapixel*
+
+</div>
