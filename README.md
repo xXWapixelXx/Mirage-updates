@@ -6,9 +6,11 @@
 
 *A native iOS location spoofer — real GPS override, live movement, and route simulation, all on-device.*
 
-![platform](https://img.shields.io/badge/platform-iOS%2017%2B-black)
+![platform](https://img.shields.io/badge/platform-iOS%2027-black)
 ![build](https://img.shields.io/badge/type-native%20SwiftUI-blue)
 ![privacy](https://img.shields.io/badge/privacy-on--device-brightgreen)
+
+**Built for iOS 27 · tested on iPhone 17 Pro · updated 22 July 2026**
 
 </div>
 
@@ -58,7 +60,8 @@ ready.
 
 ## 📲 Requirements
 
-- iPhone on **iOS 17 or later**
+- iPhone on **iOS 27** (latest)
+- Tested on **iPhone 17 Pro**
 - Installed via sideloading (SideStore / AltStore or a signed build)
 
 ## 🚀 Getting access
