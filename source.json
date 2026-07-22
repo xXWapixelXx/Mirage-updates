@@ -1,0 +1,26 @@
+{
+  "name": "Mirage",
+  "identifier": "app.mirage.prestige.source",
+  "sourceURL": "https://raw.githubusercontent.com/xXWapixelXx/Mirage-updates/main/source.json",
+  "apps": [
+    {
+      "name": "Mirage",
+      "bundleIdentifier": "app.mirage.prestige",
+      "developerName": "Wapixel",
+      "subtitle": "Teleport your location anywhere.",
+      "localizedDescription": "Native iOS location spoofer with real GPS override, live joystick, route simulation (GPX), and a WiFi fallback.",
+      "tintColor": "6C5CE7",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "2.0.0",
+          "date": "2026-07-22",
+          "localizedDescription": "Mirage v2 — joystick, routes + GPX, map styles, search history, tunnel health, in-app updates.",
+          "downloadURL": "https://github.com/xXWapixelXx/Mirage-updates/releases/download/v2.0.0/Mirage.ipa",
+          "size": 10270462,
+          "minOSVersion": "17.0"
+        }
+      ]
+    }
+  ]
+}

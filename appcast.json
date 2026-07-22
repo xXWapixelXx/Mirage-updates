@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0",
-  "notes": "Motion pack (live joystick, route simulation, GPX), map styles, search history, tunnel health + auto-reconnect, and this in-app update check.",
-  "url": "https://github.com/xXWapixelXx/Mirage-updates"
+  "version": "2.0.0",
+  "notes": "Mirage v2 — live joystick, route simulation + GPX, satellite/hybrid maps, search history, tunnel health with auto-reconnect, in-app updates, and an onboarding feature tour.",
+  "url": "https://github.com/xXWapixelXx/Mirage-updates/releases/latest"
 }
