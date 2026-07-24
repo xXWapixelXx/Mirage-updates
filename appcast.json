@@ -1,5 +1,5 @@
 {
-  "version": "2.3.0",
-  "notes": "Branded first-time setup guide + tap-to-import ('Open in Mirage'), cellular polish, live status bar, auto-reconnect, and drop notifications.",
+  "version": "2.4.0",
+  "notes": "Free-sideload aware: auto-uses the LocalDevVPN tunnel and never asks for a VPN it can't run. Tunnel UX fixes, clearer first-time pairing guide, and the two-engines (GPS + WiFi) story in the docs.",
   "url": "https://github.com/xXWapixelXx/Mirage-updates/releases/latest"
 }

@@ -13,11 +13,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "2.3.0",
+          "version": "2.4.0",
           "date": "2026-07-24",
-          "localizedDescription": "Mirage v2.3 \u2014 setup guide, tap-to-import, cellular polish.",
-          "downloadURL": "https://github.com/xXWapixelXx/Mirage-updates/releases/download/v2.3.0/Mirage.ipa",
-          "size": 10490632,
+          "localizedDescription": "Mirage v2.4 \u2014 free-sideload signing awareness, tunnel UX, refreshed docs.",
+          "downloadURL": "https://github.com/xXWapixelXx/Mirage-updates/releases/download/v2.4.0/Mirage.ipa",
+          "size": 10493387,
           "minOSVersion": "17.0"
         }
       ]
