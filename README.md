@@ -15,7 +15,7 @@
 ![Privacy](https://img.shields.io/badge/privacy-on--device-2FE6A8?style=for-the-badge)
 ![Version](https://img.shields.io/badge/version-2.3.0-8E7BEF?style=for-the-badge)
 
-<sub>Built for iOS 27 · tested on iPhone 17 Pro · made by Wapixel</sub>
+<sub>iOS 13 → 27 · tested on iOS 27 beta & iPhone 17 Pro · made by Wapixel</sub>
 
 </div>
 
@@ -30,6 +30,18 @@ or import a GPX track and let Mirage travel it for you.
 
 Clean, fast, maps-first SwiftUI. No ads, no tracking, nothing leaves your phone.
 
+## ✦ Two ways to spoof
+
+Mirage ships **two engines** — pick whatever fits how you installed it:
+
+| Mode | What it does | Needs | Best for |
+|------|--------------|-------|----------|
+| 🛰️ **GPS override** | Overrides the *real* satellite GPS — the strong one | A one-time pairing file + a tunnel (built-in on paid signing, or the free **LocalDevVPN** app) | Everything, incl. GPS-only apps |
+| 📶 **WiFi mode** | Rewrites the WiFi/coarse location lookup — **no pairing file, no computer** | Mirage's own VPN (paid signing) + a trusted cert (installed on-device) | Quick, PC-free, indoor / coarse location |
+
+> **Free sideload?** Mirage detects it automatically and switches to the
+> external **LocalDevVPN** tunnel — it never asks you to run a VPN it can't.
+
 ## ✦ Features
 
 |   |   |
@@ -43,11 +55,14 @@ Clean, fast, maps-first SwiftUI. No ads, no tracking, nothing leaves your phone.
 | 🔔 **Live status + alerts** | Top status bar + a notification if a spoof ever drops. |
 | 🔒 **On-device & private** | No location history uploaded, no third-party analytics. |
 
-## ✦ Requirements
+## ✦ Compatibility
 
-- iPhone on **iOS 27** (tested on **iPhone 17 Pro**)
-- Installed via sideloading (SideStore / AltStore, or a signed build)
-- A one-time **pairing file** for GPS override — see **[SETUP.md](SETUP.md)**
+- **iOS 13 → 27** — tested on the **iOS 27 beta** and **iPhone 17 Pro**.
+- GPS override uses Apple's developer location service (**iOS 17.4+**); the WiFi
+  engine reaches back to older iOS.
+- Installed via sideloading (SideStore / AltStore, or a signed build). Paid
+  signing unlocks the built-in VPN; a free sideload uses the LocalDevVPN tunnel.
+- GPS override needs a one-time **pairing file** — see **[SETUP.md](SETUP.md)**.
 
 ## ✦ Setup
 
