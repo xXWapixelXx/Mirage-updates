@@ -32,16 +32,16 @@ That's it. From now on Mirage spoofs on-device with no computer needed.
 > Each iPhone needs its own pairing file (generated with that device plugged
 > in), but only once per device.
 
-## Using it on mobile data (5G / cellular)
+## Using it on mobile data (5G / LTE)
 
-Some carriers run **IPv6-only cellular** (NAT64/464XLAT). iOS can't cold-start
-the location tunnel there, so a fresh teleport on 5G may fail with a socket
-error — while Wi-Fi or a hotspot works fine.
+iOS **blocks its developer location service over cellular** — Apple restricts
+that service to Wi-Fi / USB (`remotepairingdeviced` refuses cellular). So a
+teleport **can't start on 5G/LTE alone**.
 
-Fix (one-time per session), with Mirage's VPN kept on:
+What works:
 
-- Turn **Airplane Mode ON, then OFF**, **or**
-- Connect to any **Wi-Fi / hotspot** once.
+- **Connect to Wi-Fi or a personal hotspot**, tap Teleport — it works.
+- **Once the location is set, it stays** even if you then switch back to 5G.
 
-Then tap **Retry**. Once the tunnel is up it keeps working on 5G. Mirage shows
-this tip automatically if it hits the error.
+This is an iOS limitation, not a Mirage bug. The app shows a reminder if you try
+to teleport on cellular only.
