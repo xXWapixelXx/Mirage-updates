@@ -1,86 +1,76 @@
+<!-- ░░░ Mirage ░░░ -->
+
 <div align="center">
 
-# 🛰️ Mirage
+<img src="https://capsule-render.vercel.app/api?type=waving&height=240&color=gradient&customColorList=12,17,20&text=Mirage&fontSize=78&fontColor=ffffff&fontAlignY=38&desc=Teleport%20your%20iPhone%27s%20location%20—%20anywhere&descSize=18&descAlignY=60&animation=fadeIn" alt="Mirage" width="100%"/>
 
-### Teleport your iPhone's location anywhere in the world.
+<a href="https://github.com/xXWapixelXx">
+  <img src="https://readme-typing-svg.demolab.com?font=Rubik&weight=600&size=24&duration=3200&pause=700&color=6C5CE7&center=true&vCenter=true&width=560&lines=Real+GPS+override+%E2%80%94+on-device;Live+joystick+%26+route+simulation;Draw+a+path%2C+import+GPX%2C+go;Private+by+design+%E2%80%94+nothing+leaves+your+phone" alt="typing" />
+</a>
 
-*A native iOS location spoofer — real GPS override, live movement, and route simulation, all on-device.*
+<br/>
 
-![platform](https://img.shields.io/badge/platform-iOS%2027-black)
-![build](https://img.shields.io/badge/type-native%20SwiftUI-blue)
-![privacy](https://img.shields.io/badge/privacy-on--device-brightgreen)
+![iOS](https://img.shields.io/badge/iOS-27-000000?style=for-the-badge&logo=apple&logoColor=white)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-native-1575F9?style=for-the-badge&logo=swift&logoColor=white)
+![Privacy](https://img.shields.io/badge/privacy-on--device-2FE6A8?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-2.3.0-8E7BEF?style=for-the-badge)
 
-**Built for iOS 27 · tested on iPhone 17 Pro · updated 22 July 2026**
+<sub>Built for iOS 27 · tested on iPhone 17 Pro · made by Wapixel</sub>
 
 </div>
 
 ---
 
-## What is Mirage?
+## ✦ What is Mirage?
 
 Mirage makes your iPhone believe it's somewhere else. Drop a pin anywhere on the
-map, tap **Teleport**, and your device reports that location to every app — not a
-fake wrapper, but the real system location. Walk around with a joystick, follow a
-drawn route, or import a GPX track and let Mirage travel it for you.
+map, tap **Teleport**, and every app reads that location — not a fake wrapper,
+the real system location. Walk around with a joystick, follow a route you draw,
+or import a GPX track and let Mirage travel it for you.
 
-It's built as a clean, fast SwiftUI app with a maps-first design — no clutter,
-no ads, no data leaving your phone.
+Clean, fast, maps-first SwiftUI. No ads, no tracking, nothing leaves your phone.
 
-## ✨ Features
+## ✦ Features
 
-### 📍 Real GPS override
-Beats plain WiFi tricks — Mirage overrides the actual satellite-GPS location, so
-it works everywhere apps read your position.
+|   |   |
+|---|---|
+| 📍 **Real GPS override** | Beats plain WiFi tricks — overrides the actual satellite GPS. |
+| 🕹️ **Live joystick** | Walk, run, cycle or drive your location in real time. |
+| 🗺️ **Routes + GPX** | Tap or draw a path, follow it automatically, import & export GPX. |
+| 🌍 **Map your way** | Standard / Hybrid / Satellite, world search + recent history. |
+| 💓 **Self-healing link** | Health monitor auto-reconnects; resumes after an accidental close. |
+| 📶 **Works on 5G** | Start on Wi-Fi once, then keep spoofing on cellular. |
+| 🔔 **Live status + alerts** | Top status bar + a notification if a spoof ever drops. |
+| 🔒 **On-device & private** | No location history uploaded, no third-party analytics. |
 
-### 🕹️ Live joystick
-Flip on movement mode and *walk* your location in real time with an analog
-joystick — pick a speed from strolling to driving. The map and beacon follow you
-smoothly.
+## ✦ Requirements
 
-### 🗺️ Route simulation + GPX
-Tap waypoints or freehand-draw a path on the map, then let Mirage travel it
-automatically at your chosen speed. Loop it, or import & export routes as **GPX**
-to share and reuse.
+- iPhone on **iOS 27** (tested on **iPhone 17 Pro**)
+- Installed via sideloading (SideStore / AltStore, or a signed build)
+- A one-time **pairing file** for GPS override — see **[SETUP.md](SETUP.md)**
 
-### 🌍 Map your way
-Switch between **Standard**, **Hybrid**, and **Satellite** maps, search any place
-in the world, and jump back to recent searches in a tap.
+## ✦ Setup
 
-### 💓 Rock-solid connection
-A built-in health monitor keeps the location link alive and auto-reconnects if it
-ever drops — so your spoof stays put while you use other apps.
+Installing takes seconds. GPS override needs a **one-time** pairing step (any
+computer — Mac, Windows or Linux — once per device, reusable forever, no
+jailbreak). Full walkthrough → **[SETUP.md](SETUP.md)** · **[pairing guide](PAIRING-WINDOWS.md)**
 
-### 🔒 Private by design
-Everything runs **on your device**. No location history is uploaded, no tracking,
-no third-party analytics on where you go.
+## ✦ Getting access
 
-### ⬆️ Stays up to date
-Mirage checks for new versions on its own and lets you know when an update is
-ready.
+Mirage is **invite-only**. Want in?
 
-## 📲 Requirements
+<div align="center">
 
-- iPhone on **iOS 27** (latest)
-- Tested on **iPhone 17 Pro**
-- Installed via sideloading (SideStore / AltStore or a signed build)
+[![GitHub](https://img.shields.io/badge/GitHub-@xXWapixelXx-181717?style=for-the-badge&logo=github)](https://github.com/xXWapixelXx)
+&nbsp;
+![Discord](https://img.shields.io/badge/Discord-wapixel-5865F2?style=for-the-badge&logo=discord&logoColor=white)
 
-## 🚀 Getting access
-
-Mirage is currently **invite-only**. Want in? Reach out:
-
-- **GitHub** — [@xXWapixelXx](https://github.com/xXWapixelXx)
-- **Discord** — `wapixel`
-
-## 🛠️ Setup
-
-Installing takes seconds; GPS spoofing needs a **one-time** pairing step (any
-computer, once per device — no jailbreak, no Mac required). Full walkthrough in
-**[SETUP.md](SETUP.md)**.
+</div>
 
 ---
 
 <div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=gradient&customColorList=12,17,20" width="100%"/>
 
-*Mirage · made by Wapixel*
-
+<sub>Mirage · a Wapixel project · not affiliated with Apple</sub>
 </div>

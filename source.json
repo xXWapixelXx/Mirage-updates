@@ -13,11 +13,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "2.2.0",
+          "version": "2.3.0",
           "date": "2026-07-24",
-          "localizedDescription": "Mirage v2.2 \u2014 5G/cellular fixes, auto-reconnect, live status, drop notifications.",
-          "downloadURL": "https://github.com/xXWapixelXx/Mirage-updates/releases/download/v2.2.0/Mirage.ipa",
-          "size": 10442683,
+          "localizedDescription": "Mirage v2.3 \u2014 setup guide, tap-to-import, cellular polish.",
+          "downloadURL": "https://github.com/xXWapixelXx/Mirage-updates/releases/download/v2.3.0/Mirage.ipa",
+          "size": 10490632,
           "minOSVersion": "17.0"
         }
       ]

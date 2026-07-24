@@ -1,5 +1,5 @@
 {
-  "version": "2.2.0",
-  "notes": "Fixed spoofing on 5G/cellular — only starting needs Wi-Fi, then it keeps working on 5G. Auto-reconnect after an accidental close, a live status bar (tap to resume), a notification when the spoof stops, and Favorites/Settings/Recents stay available while spoofing.",
+  "version": "2.3.0",
+  "notes": "Branded first-time setup guide + tap-to-import ('Open in Mirage'), cellular polish, live status bar, auto-reconnect, and drop notifications.",
   "url": "https://github.com/xXWapixelXx/Mirage-updates/releases/latest"
 }

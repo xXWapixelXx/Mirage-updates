@@ -19,32 +19,29 @@ the phone alone. The good news:
 - ✅ **No jailbreak.**
 
 
-> **On Windows?** See the step-by-step [PAIRING-WINDOWS.md](PAIRING-WINDOWS.md) (uses idevice_pair in RPPairing mode).
+> Full step-by-step (Mac / Windows / Linux): **[pairing guide](PAIRING-WINDOWS.md)** (uses idevice_pair in RPPairing mode).
 
 ### Steps
-1. On a computer, get a pairing tool — e.g. [idevice_pair](https://github.com/jkcoxson/idevice_pair)
-   (Windows/macOS/Linux) or JitterbugPair.
+1. On a computer, get [idevice_pair](https://github.com/jkcoxson/idevice_pair/releases)
+   (Mac / Windows / Linux). Windows also needs iTunes for the drivers.
 2. Connect your iPhone by USB. **Unlock it**, tap **Trust**, and enter your
    passcode.
-3. Generate the pairing file (a `.mobiledevicepairing` / `.plist` file).
-4. Send that file to your iPhone — AirDrop, iCloud Drive, or email.
-5. Open **Mirage → Settings → import the pairing file.**
+3. In idevice_pair pick **RPPairing** mode and **Generate** the file.
+4. Send it to your iPhone — AirDrop, iCloud Drive, or email.
+5. **Tap the file → "Open in Mirage"** (or Settings → Developer login → Import).
 
-That's it. From now on Mirage spoofs on-device with no computer needed.
+That's it — reusable forever, no computer needed again.
 
 > Each iPhone needs its own pairing file (generated with that device plugged
 > in), but only once per device.
 
 ## Using it on mobile data (5G / LTE)
 
-iOS **blocks its developer location service over cellular** — Apple restricts
-that service to Wi-Fi / USB (`remotepairingdeviced` refuses cellular). So a
-teleport **can't start on 5G/LTE alone**.
+iOS only lets the location service **start** over Wi-Fi / hotspot / USB (Apple
+blocks the *initial* connection on cellular). But once it's running:
 
-What works:
-
-- **Connect to Wi-Fi or a personal hotspot**, tap Teleport — it works.
-- **Once the location is set, it stays** even if you then switch back to 5G.
-
-This is an iOS limitation, not a Mirage bug. The app shows a reminder if you try
-to teleport on cellular only.
+- **Start a teleport on Wi-Fi or a hotspot** (one moment is enough).
+- **Then it keeps working on 5G** — change spots, use the joystick, all on
+  cellular — as long as you stay spoofing.
+- Turn it off, force-close, or lose the session and you'll need Wi-Fi to start
+  again. Mirage **auto-reconnects** the moment Wi-Fi is back.
