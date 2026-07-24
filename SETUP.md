@@ -18,6 +18,9 @@ the phone alone. The good news:
   Mac, and it doesn't have to be *your* computer. A borrowed laptop is fine.
 - ✅ **No jailbreak.**
 
+
+> **On Windows?** See the step-by-step [PAIRING-WINDOWS.md](PAIRING-WINDOWS.md) (uses idevice_pair in RPPairing mode).
+
 ### Steps
 1. On a computer, get a pairing tool — e.g. [idevice_pair](https://github.com/jkcoxson/idevice_pair)
    (Windows/macOS/Linux) or JitterbugPair.
