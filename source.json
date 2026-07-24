@@ -13,11 +13,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "2.1.0",
-          "date": "2026-07-22",
-          "localizedDescription": "Mirage v2.1 \u2014 licensing, tiers, free tier, usage tracking.",
-          "downloadURL": "https://github.com/xXWapixelXx/Mirage-updates/releases/download/v2.1.0/Mirage.ipa",
-          "size": 10408841,
+          "version": "2.2.0",
+          "date": "2026-07-24",
+          "localizedDescription": "Mirage v2.2 \u2014 5G/cellular fixes, auto-reconnect, live status, drop notifications.",
+          "downloadURL": "https://github.com/xXWapixelXx/Mirage-updates/releases/download/v2.2.0/Mirage.ipa",
+          "size": 10442683,
           "minOSVersion": "17.0"
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "version": "2.1.0",
-  "notes": "Licensing: accounts, tiers (free/basic/pro/family), per-plan device limits, a free tier (1 device-locked teleport) with a branded upsell, and usage tracking (last used + IP).",
+  "version": "2.2.0",
+  "notes": "Fixed spoofing on 5G/cellular — only starting needs Wi-Fi, then it keeps working on 5G. Auto-reconnect after an accidental close, a live status bar (tap to resume), a notification when the spoof stops, and Favorites/Settings/Recents stay available while spoofing.",
   "url": "https://github.com/xXWapixelXx/Mirage-updates/releases/latest"
 }
