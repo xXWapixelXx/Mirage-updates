@@ -15,7 +15,7 @@
 ![Privacy](https://img.shields.io/badge/privacy-on--device-2FE6A8?style=for-the-badge)
 ![Version](https://img.shields.io/badge/version-2.3.0-8E7BEF?style=for-the-badge)
 
-<sub>iOS 13 → 27 · tested on iOS 27 beta & iPhone 17 Pro · made by Wapixel</sub>
+<sub>iOS 18 → 27 · tested on iOS 27 beta & iPhone 17 Pro · made by Wapixel</sub>
 
 </div>
 
@@ -57,9 +57,9 @@ Mirage ships **two engines** — pick whatever fits how you installed it:
 
 ## ✦ Compatibility
 
-- **iOS 13 → 27** — tested on the **iOS 27 beta** and **iPhone 17 Pro**.
-- GPS override uses Apple's developer location service (**iOS 17.4+**); the WiFi
-  engine reaches back to older iOS.
+- **iOS 18 → 27** — tested on the **iOS 27 beta** and **iPhone 17 Pro**.
+- GPS override uses Apple's developer location service (iOS 17.4+); WiFi mode
+  needs Mirage's own VPN (paid signing).
 - Installed via sideloading (SideStore / AltStore, or a signed build). Paid
   signing unlocks the built-in VPN; a free sideload uses the LocalDevVPN tunnel.
 - GPS override needs a one-time **pairing file** — see **[SETUP.md](SETUP.md)**.
