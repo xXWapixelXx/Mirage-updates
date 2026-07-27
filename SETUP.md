@@ -8,10 +8,30 @@ Mirage is invite-only — see the [README](README.md) to get access. Install it
 with your sideloading tool of choice (SideStore / AltStore, or a signed build).
 EU users can install with **AltStore PAL** straight from Safari, no computer.
 
-## 2. One-time pairing (needed for GPS spoofing)
-To set your GPS location, iOS requires a **one-time trust** ("pairing") between
-your iPhone and a computer. This is an Apple security step — it can't be done on
-the phone alone. The good news:
+## 2. Pairing (needed for GPS spoofing)
+
+To set your GPS location, iOS requires a **trust relationship** ("pairing").
+
+### 🔓 On iOS 27 — no computer at all
+
+Mirage can pair with your iPhone by itself. It runs a pairing host on the phone
+and your iPhone pairs with it over the local network:
+
+1. Open Mirage → **Settings → Developer login → Pair on this iPhone**
+   (or tap **Pair without a computer** in the first-time guide).
+2. Allow **Local Network** when asked — that's how your iPhone finds Mirage.
+3. Leave Mirage open and go to **Settings › Privacy & Security › Developer Mode
+   → Pair with Host**, then pick **Mirage**.
+4. Type the **6-digit code** Mirage is showing. Done — you're paired.
+
+> Keep Mirage open while you're in Settings; it has to stay listening.
+> If nothing shows up under *Pair with Host*, your iOS version doesn't support
+> device-initiated pairing yet — use the computer route below.
+
+### 💻 On iOS 18–26 — one-time computer step
+
+Older versions can't pair themselves, so this is an Apple security step that
+can't be done on the phone alone. The good news:
 
 - ✅ **One time only** — the pairing file is reusable forever after.
 - ✅ **Any computer** works (Windows, macOS, or Linux) — it doesn't have to be a
@@ -20,6 +40,10 @@ the phone alone. The good news:
 
 
 > Full step-by-step (Mac / Windows / Linux): **[pairing guide](PAIRING-WINDOWS.md)** (uses idevice_pair in RPPairing mode).
+>
+> ⚠️ It has to be an **RPPairing** file. A `.mobiledevicepairing` you already
+> have from SideStore or StikDebug is the older *lockdown* format — Mirage will
+> tell you if you pick the wrong one.
 
 ### Steps
 1. On a computer, get [idevice_pair](https://github.com/jkcoxson/idevice_pair/releases)

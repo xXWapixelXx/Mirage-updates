@@ -5,7 +5,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=240&color=gradient&customColorList=12,17,20&text=Mirage&fontSize=78&fontColor=ffffff&fontAlignY=38&desc=Teleport%20your%20iPhone%27s%20location%20—%20anywhere&descSize=18&descAlignY=60&animation=fadeIn" alt="Mirage" width="100%"/>
 
 <a href="https://github.com/xXWapixelXx">
-  <img src="https://readme-typing-svg.demolab.com?font=Rubik&weight=600&size=24&duration=3200&pause=700&color=6C5CE7&center=true&vCenter=true&width=560&lines=Real+GPS+override+%E2%80%94+on-device;Live+joystick+%26+route+simulation;Draw+a+path%2C+import+GPX%2C+go;Private+by+design+%E2%80%94+nothing+leaves+your+phone" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Rubik&weight=600&size=24&duration=3200&pause=700&color=6C5CE7&center=true&vCenter=true&width=560&lines=Real+GPS+override+%E2%80%94+on-device;No+computer+needed+%E2%80%94+at+all;Live+joystick+%26+route+simulation;Private+by+design+%E2%80%94+nothing+leaves+your+phone" alt="typing" />
 </a>
 
 <br/>
@@ -13,7 +13,8 @@
 ![iOS](https://img.shields.io/badge/iOS-27-000000?style=for-the-badge&logo=apple&logoColor=white)
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-native-1575F9?style=for-the-badge&logo=swift&logoColor=white)
 ![Privacy](https://img.shields.io/badge/privacy-on--device-2FE6A8?style=for-the-badge)
-![Version](https://img.shields.io/badge/version-2.3.0-8E7BEF?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-2.6.0-8E7BEF?style=for-the-badge)
+![No PC](https://img.shields.io/badge/no%20computer-required-2ECC71?style=for-the-badge)
 
 <sub>iOS 18 → 27 · tested on iOS 27 beta & iPhone 17 Pro · made by Wapixel</sub>
 
@@ -36,7 +37,7 @@ Mirage ships **two engines** — pick whatever fits how you installed it:
 
 | Mode | What it does | Needs | Best for |
 |------|--------------|-------|----------|
-| 🛰️ **GPS override** | Overrides the *real* satellite GPS — the strong one | A one-time pairing file + a tunnel (built-in on paid signing, or the free **LocalDevVPN** app) | Everything, incl. GPS-only apps |
+| 🛰️ **GPS override** | Overrides the *real* satellite GPS — the strong one | A pairing file (**Mirage makes its own on iOS 27**) + a tunnel (built-in on paid signing, or the free **LocalDevVPN** app) | Everything, incl. GPS-only apps |
 | 📶 **WiFi mode** | Rewrites the WiFi/coarse location lookup — **no pairing file, no computer** | Mirage's own VPN (paid signing) + a trusted cert (installed on-device) | Quick, PC-free, indoor / coarse location |
 
 > **Free sideload?** Mirage detects it automatically and switches to the
@@ -46,6 +47,7 @@ Mirage ships **two engines** — pick whatever fits how you installed it:
 
 |   |   |
 |---|---|
+| 🔓 **No computer needed** | **New in 2.6** — on iOS 27 Mirage pairs with your iPhone itself. No Mac, no PC, no cable. |
 | 📍 **Real GPS override** | Beats plain WiFi tricks — overrides the actual satellite GPS. |
 | 🕹️ **Live joystick** | Walk, run, cycle or drive your location in real time. |
 | 🗺️ **Routes + GPX** | Tap or draw a path, follow it automatically, import & export GPX. |
@@ -62,13 +64,23 @@ Mirage ships **two engines** — pick whatever fits how you installed it:
   needs Mirage's own VPN (paid signing).
 - Installed via sideloading (SideStore / AltStore, or a signed build). Paid
   signing unlocks the built-in VPN; a free sideload uses the LocalDevVPN tunnel.
-- GPS override needs a one-time **pairing file** — see **[SETUP.md](SETUP.md)**.
+- GPS override needs a **pairing file**. On **iOS 27** Mirage creates it on the
+  phone; on iOS 18–26 it's a one-time computer step — see **[SETUP.md](SETUP.md)**.
 
 ## ✦ Setup
 
-Installing takes seconds. GPS override needs a **one-time** pairing step (any
-computer — Mac, Windows or Linux — once per device, reusable forever, no
+Installing takes seconds.
+
+**On iOS 27 — nothing else needed.** Open Mirage → *Pair on this iPhone*, then
+confirm the 6-digit code in Settings › Privacy & Security › Developer Mode.
+That's the whole setup.
+
+**On iOS 18–26** GPS override still needs a one-time pairing step on any
+computer (Mac, Windows or Linux — once per device, reusable forever, no
 jailbreak). Full walkthrough → **[SETUP.md](SETUP.md)** · **[pairing guide](PAIRING-WINDOWS.md)**
+
+> ⚠️ It has to be an **RPPairing** file. A `.mobiledevicepairing` from
+> SideStore/StikDebug is the older *lockdown* format and won't work.
 
 ## ✦ Getting access
 

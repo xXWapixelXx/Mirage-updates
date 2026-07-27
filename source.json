@@ -13,6 +13,14 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "2.6.0",
+          "date": "2026-07-27",
+          "localizedDescription": "Mirage v2.6 — no computer required. On iOS 27 Mirage pairs with your iPhone itself: no Mac, no PC, no cable. Re-pair from Settings any time. IPA in the Discord for now.",
+          "downloadURL": "https://github.com/xXWapixelXx/Mirage-updates/releases/download/v2.6.0/Mirage.ipa",
+          "size": 11156839,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "2.5.0",
           "date": "2026-07-27",
           "localizedDescription": "Mirage v2.5 — Walk/Drive routing on real roads, natural speed variation, 5G session fixes, real-location exposure alerts. IPA in the Discord for now.",

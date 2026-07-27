@@ -1,5 +1,5 @@
 {
-  "version": "2.5.0",
-  "notes": "Walk/Drive routing along real roads, natural speed variation (anti-detection), 5G session reuse fix, real-location snap-back alerts, and honest status on reopen. IPA available in the Discord for now.",
+  "version": "2.6.0",
+  "notes": "No computer required — on iOS 27 Mirage creates its own pairing file on the phone. Re-pair from Settings any time. IPA available in the Discord for now.",
   "url": "https://github.com/xXWapixelXx/Mirage-updates/releases/latest"
 }
