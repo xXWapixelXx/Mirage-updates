@@ -33,12 +33,13 @@ Clean, fast, maps-first SwiftUI. No ads, no tracking, nothing leaves your phone.
 
 ## ✦ Two ways to spoof
 
-Mirage ships **two engines** — pick whatever fits how you installed it:
+Mirage ships **two engines** — pick whatever fits how you installed it.
+**Neither one needs a computer on iOS 27.**
 
 | Mode | What it does | Needs | Best for |
 |------|--------------|-------|----------|
-| 🛰️ **GPS override** | Overrides the *real* satellite GPS — the strong one | A pairing file (**Mirage makes its own on iOS 27**) + a tunnel (built-in on paid signing, or the free **LocalDevVPN** app) | Everything, incl. GPS-only apps |
-| 📶 **WiFi mode** | Rewrites the WiFi/coarse location lookup — **no pairing file, no computer** | Mirage's own VPN (paid signing) + a trusted cert (installed on-device) | Quick, PC-free, indoor / coarse location |
+| 🛰️ **GPS override** | Overrides the *real* satellite GPS — the strong one | **No computer on iOS 27** — Mirage makes its own pairing file (iOS 18–26: one-time computer step) + a tunnel (built-in on paid signing, or the free **LocalDevVPN** app) | Everything, incl. GPS-only apps |
+| 📶 **WiFi mode** | Rewrites the WiFi/coarse location lookup — **no pairing file at all** | Mirage's own VPN (paid signing) + a trusted cert (installed on-device) | Quick setup, indoor / coarse location |
 
 > **Free sideload?** Mirage detects it automatically and switches to the
 > external **LocalDevVPN** tunnel — it never asks you to run a VPN it can't.
