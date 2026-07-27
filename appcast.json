@@ -1,5 +1,5 @@
 {
-  "version": "2.4.0",
-  "notes": "Free-sideload aware: auto-uses the LocalDevVPN tunnel and never asks for a VPN it can't run. Tunnel UX fixes, clearer first-time pairing guide, and the two-engines (GPS + WiFi) story in the docs.",
+  "version": "2.5.0",
+  "notes": "Walk/Drive routing along real roads, natural speed variation (anti-detection), 5G session reuse fix, real-location snap-back alerts, and honest status on reopen. IPA available in the Discord for now.",
   "url": "https://github.com/xXWapixelXx/Mirage-updates/releases/latest"
 }

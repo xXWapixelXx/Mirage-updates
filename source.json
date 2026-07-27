@@ -13,9 +13,17 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "2.5.0",
+          "date": "2026-07-27",
+          "localizedDescription": "Mirage v2.5 — Walk/Drive routing on real roads, natural speed variation, 5G session fixes, real-location exposure alerts. IPA in the Discord for now.",
+          "downloadURL": "https://github.com/xXWapixelXx/Mirage-updates/releases/download/v2.5.0/Mirage.ipa",
+          "size": 10514200,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "2.4.0",
           "date": "2026-07-24",
-          "localizedDescription": "Mirage v2.4 \u2014 free-sideload signing awareness, tunnel UX, refreshed docs.",
+          "localizedDescription": "Mirage v2.4 — free-sideload signing awareness, tunnel UX, refreshed docs.",
           "downloadURL": "https://github.com/xXWapixelXx/Mirage-updates/releases/download/v2.4.0/Mirage.ipa",
           "size": 10493387,
           "minOSVersion": "17.0"
