@@ -73,6 +73,7 @@ jailbreak). Full walkthrough → **[SETUP.md](SETUP.md)** · **[pairing guide](P
 ## ✦ Getting access
 
 Mirage is **invite-only**. Want in?
+https://discord.gg/9c29app56C
 
 <div align="center">
 
