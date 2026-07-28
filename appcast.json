@@ -1,5 +1,5 @@
 {
-  "version": "2.6.0",
-  "notes": "No computer required — on iOS 27 Mirage creates its own pairing file on the phone. Re-pair from Settings any time. IPA available in the Discord for now.",
+  "version": "2.8.0",
+  "notes": "Walk/Drive here now draws the route line and you can change speed while walking. New Liquid Glass bottom bar, save & replay routes, paste coordinates / Maps link, rename saved places, and reliable pairing import. Fixes: false \"couldn't reach the license server\" lockouts, raw tunnel errors, and \"Walk here\" leaking your real location. Update from Settings → Updates.",
   "url": "https://github.com/xXWapixelXx/Mirage-updates/releases/latest"
 }
