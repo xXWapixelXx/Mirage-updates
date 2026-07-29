@@ -1,5 +1,5 @@
 {
-  "version": "3.0.0",
-  "notes": "Mirage v3.0 — the revamp. Light mode (warm paper, not inverted dark). New home screen: the bottom sheet is gone and the map gets its space back. Live Activity on the Lock Screen and Dynamic Island. Walk/Drive here now works from your real location after a confirmation. Map style swatches, a full-screen Places screen, km/h ↔ mph in Settings, and you can change speed while moving. Settings rebuilt. Considerably faster with a spoof running. Update from Settings → Updates.",
+  "version": "3.0.1",
+  "notes": "Fixes the install failure in 3.0.0. If 3.0.0 refused to install with a \"MissingBundleExecutable\" error, that was a packaging bug on my end — not your signing setup. The Live Activity extension shipped without declaring its executable, so iOS rejected the app before signing came into it. Same features as 3.0.0: light mode, the new home screen with no bottom sheet, Live Activity on the Lock Screen and Dynamic Island, Walk/Drive here from your real location, map style swatches, full-screen Places, km/h and mph, speed changes while moving.",
   "url": "https://github.com/xXWapixelXx/Mirage-updates/releases/latest"
 }
