@@ -1,5 +1,5 @@
 {
-  "version": "2.8.0",
-  "notes": "Walk/Drive here now draws the route line and you can change speed while walking. New Liquid Glass bottom bar, save & replay routes, paste coordinates / Maps link, rename saved places, and reliable pairing import. Fixes: false \"couldn't reach the license server\" lockouts, raw tunnel errors, and \"Walk here\" leaking your real location. Update from Settings → Updates.",
+  "version": "3.0.0",
+  "notes": "Mirage v3.0 — the revamp. Light mode (warm paper, not inverted dark). New home screen: the bottom sheet is gone and the map gets its space back. Live Activity on the Lock Screen and Dynamic Island. Walk/Drive here now works from your real location after a confirmation. Map style swatches, a full-screen Places screen, km/h ↔ mph in Settings, and you can change speed while moving. Settings rebuilt. Considerably faster with a spoof running. Update from Settings → Updates.",
   "url": "https://github.com/xXWapixelXx/Mirage-updates/releases/latest"
 }
