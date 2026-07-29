@@ -1,5 +1,5 @@
 {
-  "version": "3.0.1",
-  "notes": "Fixes the install failure in 3.0.0. If 3.0.0 refused to install with a \"MissingBundleExecutable\" error, that was a packaging bug on my end — not your signing setup. The Live Activity extension shipped without declaring its executable, so iOS rejected the app before signing came into it. Same features as 3.0.0: light mode, the new home screen with no bottom sheet, Live Activity on the Lock Screen and Dynamic Island, Walk/Drive here from your real location, map style swatches, full-screen Places, km/h and mph, speed changes while moving.",
+  "version": "3.0.2",
+  "notes": "A round of fixes from v2.8.0 feedback, plus a restored device build. Sideload installs go straight to external-tunnel setup (built-in VPN hidden for sideloads); more reliable connect with longer timeouts and a gentle retry for the coordinate-confirmation timeout; the Live Activity now only appears when something goes wrong; removed the misleading free-teleport messaging and counter; Favorites/Recents taps register reliably, the map-tap pin is centred on your touch, and icon sizes are consistent. Known limitation: some apps (e.g. Uber) read iOS's built-in simulated-location flag and won't accept an overridden location \u2014 an iOS-level limitation of GPS override, not a Mirage bug.",
   "url": "https://github.com/xXWapixelXx/Mirage-updates/releases/latest"
 }
