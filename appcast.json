@@ -1,5 +1,5 @@
 {
-  "version": "3.0.2",
-  "notes": "A round of fixes from v2.8.0 feedback, plus a restored device build. Sideload installs go straight to external-tunnel setup (built-in VPN hidden for sideloads); more reliable connect with longer timeouts and a gentle retry for the coordinate-confirmation timeout; the Live Activity now only appears when something goes wrong; removed the misleading free-teleport messaging and counter; Favorites/Recents taps register reliably, the map-tap pin is centred on your touch, and icon sizes are consistent. Known limitation: some apps (e.g. Uber) read iOS's built-in simulated-location flag and won't accept an overridden location \u2014 an iOS-level limitation of GPS override, not a Mirage bug.",
+  "version": "3.0.3",
+  "notes": "Polish. Confirmation dialogs (start from your location, turn off spoofing, reset) now use a clean in-app sheet instead of a system pop-up. The GPS-override setup guide is easier to read with clearer step numbers. Clearer wording on the optional Wi-Fi setup step. Reliability and UI fixes under the hood.",
   "url": "https://github.com/xXWapixelXx/Mirage-updates/releases/latest"
 }
