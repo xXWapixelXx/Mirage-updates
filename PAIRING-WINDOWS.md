@@ -30,10 +30,19 @@ Send the file to the phone — **AirDrop** (Mac), email, or iCloud / Google Driv
 OneDrive. Then just **tap the file → "Open in Mirage"** — it imports instantly.
 (Or in the app: **Settings → Developer login → Import pairing file**.)
 
-Done — GPS override works, and keeps working on 5G once started.
+Done — GPS override works, on Wi-Fi and on mobile data alike.
+
+## Back it up so you never do this again
+Once imported, Mirage keeps a copy in **Files → On My iPhone → Mirage →
+Pairing**, and **Settings → Developer login → Save pairing file** shares it off
+the phone. Keep that somewhere safe: restoring it is drag-and-drop, so a
+reinstall never sends you back to a computer.
 
 ## Notes
 - **One time per device**, reusable forever. Each new iPhone needs its own file.
 - No jailbreak, no Mac required (any computer works, once).
 - For sideloaded installs without the paid Network-Extension entitlement, keep
   **LocalDevVPN** running — it provides the loopback tunnel Mirage connects through.
+- **No Wi-Fi needed.** On mobile data with LocalDevVPN you turn Mobile Data off
+  for a few seconds while the session connects, then turn it straight back on —
+  see [SETUP.md](SETUP.md#using-it-on-mobile-data-5g--lte).

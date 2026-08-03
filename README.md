@@ -5,7 +5,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=240&color=gradient&customColorList=12,17,20&text=Mirage&fontSize=78&fontColor=ffffff&fontAlignY=38&desc=Teleport%20your%20iPhone%27s%20location%20—%20anywhere&descSize=18&descAlignY=60&animation=fadeIn" alt="Mirage" width="100%"/>
 
 <a href="https://github.com/xXWapixelXx">
-  <img src="https://readme-typing-svg.demolab.com?font=Rubik&weight=600&size=24&duration=3200&pause=700&color=6C5CE7&center=true&vCenter=true&width=560&lines=Real+GPS+override+%E2%80%94+on-device;No+computer+needed+%E2%80%94+at+all;Live+joystick+%26+route+simulation;Private+by+design+%E2%80%94+nothing+leaves+your+phone" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Rubik&weight=600&size=24&duration=3200&pause=700&color=6C5CE7&center=true&vCenter=true&width=560&lines=Real+GPS+override+%E2%80%94+on-device;No+computer+needed+%E2%80%94+at+all;No+Wi-Fi+needed+%E2%80%94+works+on+5G;Walk%2C+drive+or+ride+the+bus;Private+by+design+%E2%80%94+nothing+leaves+your+phone" alt="typing" />
 </a>
 
 <br/>
@@ -13,10 +13,10 @@
 ![iOS](https://img.shields.io/badge/iOS-27-000000?style=for-the-badge&logo=apple&logoColor=white)
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-native-1575F9?style=for-the-badge&logo=swift&logoColor=white)
 ![Privacy](https://img.shields.io/badge/privacy-on--device-2FE6A8?style=for-the-badge)
-![Version](https://img.shields.io/badge/version-2.6.0-8E7BEF?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-3.1.0-8E7BEF?style=for-the-badge)
 ![No PC](https://img.shields.io/badge/no%20computer-required-2ECC71?style=for-the-badge)
 
-<sub>iOS 18 → 27 · tested on iOS 27 beta & iPhone 17 Pro · made by Wapixel</sub>
+<sub>iOS 18 → 27 · tested on iOS 27 & iPhone 17 Pro · made by Wapixel</sub>
 
 </div>
 
@@ -48,14 +48,17 @@ Mirage ships **two engines** — pick whatever fits how you installed it.
 
 |   |   |
 |---|---|
-| 🔓 **No computer needed** | **New in 2.6** — on iOS 27 Mirage pairs with your iPhone itself. No Mac, no PC, no cable. |
+| 🔓 **No computer needed** | On iOS 27 Mirage pairs with your iPhone itself. No Mac, no PC, no cable. |
 | 📍 **Real GPS override** | Beats plain WiFi tricks — overrides the actual satellite GPS. |
-| 🕹️ **Live joystick** | Walk, run, cycle or drive your location in real time. |
+| 📶 **No Wi-Fi needed** | **New in 3.1** — spoof on mobile data. On an external tunnel, flick Mobile Data off for a few seconds to connect, then turn it straight back on. |
+| 🚌 **Public transport** | **New in 3.1** — bus, tram, metro and train that actually stop at stops, alongside walk / run / cycle / drive. |
+| 💾 **Pairing backups** | **New in 3.1** — your pairing file is saved to Files and can be shared off the phone, so reinstalling never means redoing it. |
+| 🕹️ **Live joystick** | Move your location in real time, and change pace mid-journey. |
 | 🗺️ **Routes + GPX** | Tap or draw a path, follow it automatically, import & export GPX. |
-| 🌍 **Map your way** | Standard / Hybrid / Satellite, world search + recent history. |
-| 💓 **Self-healing link** | Health monitor auto-reconnects; resumes after an accidental close. |
-| 📶 **Works on 5G** | Start on Wi-Fi once, then keep spoofing on cellular. |
-| 🔔 **Live status + alerts** | Top status bar + a notification if a spoof ever drops. |
+| 🌗 **Light & dark** | Auto / Light / Dark, with light mode mixed for paper rather than inverted. |
+| 🔔 **Live Activity** | Place, speed, distance and link health on the Lock Screen and Dynamic Island. |
+| 🌍 **Map your way** | Standard / Hybrid / Satellite, world search, favourites and recents. |
+| 💓 **Self-healing link** | Health monitor re-applies a dropped spoof; resumes after an accidental close. |
 | 🔒 **On-device & private** | No location history uploaded, no third-party analytics. |
 
 ## ✦ Compatibility

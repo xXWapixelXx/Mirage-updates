@@ -61,11 +61,45 @@ That's it — reusable forever, no computer needed again.
 
 ## Using it on mobile data (5G / LTE)
 
-iOS only lets the location service **start** over Wi-Fi / hotspot / USB (Apple
-blocks the *initial* connection on cellular). But once it's running:
+**You do not need Wi-Fi.** Older versions of this page said you had to start a
+teleport on Wi-Fi or a hotspot — that is no longer true, and Mirage no longer
+asks you to go and find one.
 
-- **Start a teleport on Wi-Fi or a hotspot** (one moment is enough).
-- **Then it keeps working on 5G** — change spots, use the joystick, all on
-  cellular — as long as you stay spoofing.
-- Turn it off, force-close, or lose the session and you'll need Wi-Fi to start
-  again. Mirage **auto-reconnects** the moment Wi-Fi is back.
+What the location service actually needs is a route to the tunnel it connects
+through. How that plays out depends on which tunnel you use:
+
+### With Mirage's own VPN (paid signing)
+Nothing to do. Mirage starts its own tunnel on cellular and teleports straight
+away.
+
+### With LocalDevVPN (free sideload)
+Cellular and the tunnel can both be up and the connect still gets refused — with
+mobile data as your only IPv4 route, nothing Mirage can do from inside the app
+changes that. So:
+
+1. Tap **Teleport**. Mirage sees the situation and asks for Mobile Data off.
+2. Turn **Mobile Data off** — Settings, or Control Centre. You are not being
+   asked to find Wi-Fi; you're taking cellular away for a few seconds.
+3. Mirage notices the moment the route frees up and starts **by itself**. You do
+   not have to tap anything again; it remembered where you were going.
+4. Turn **Mobile Data back on**. The session keeps running.
+
+That's one toggle per session, not per teleport — once a session exists,
+teleporting somewhere else needs no route at all.
+
+> If you have Wi-Fi available, none of this applies: connect and teleport
+> normally. Wi-Fi alongside cellular works fine.
+
+### Once it's running
+- Change spots, use the joystick, follow a route — all on cellular.
+- Stopping a spoof leaves the tunnel up, so starting again is quick.
+- If a session does drop, Mirage re-applies it on its own.
+
+## Keep a copy of your pairing file
+
+From 3.1, every pairing file you import is also saved to
+**Files → On My iPhone → Mirage → Pairing**, and **Settings → Developer login →
+Save pairing file** can share it off the phone (AirDrop, iCloud Drive, wherever).
+
+Do that once. If you ever reinstall Mirage, drop the file back into that folder
+and it gets picked up automatically — no re-pairing, no computer.
