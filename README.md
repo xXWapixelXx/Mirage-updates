@@ -13,7 +13,7 @@
 ![iOS](https://img.shields.io/badge/iOS-27-000000?style=for-the-badge&logo=apple&logoColor=white)
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-native-1575F9?style=for-the-badge&logo=swift&logoColor=white)
 ![Privacy](https://img.shields.io/badge/privacy-on--device-2FE6A8?style=for-the-badge)
-![Version](https://img.shields.io/badge/version-3.1.0-8E7BEF?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-3.2.0-8E7BEF?style=for-the-badge)
 ![No PC](https://img.shields.io/badge/no%20computer-required-2ECC71?style=for-the-badge)
 
 <sub>iOS 18 → 27 · tested on iOS 27 & iPhone 17 Pro · made by Wapixel</sub>
