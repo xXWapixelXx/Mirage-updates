@@ -13,6 +13,14 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "3.1.0",
+          "date": "2026-08-03",
+          "localizedDescription": "Ride the bus, keep your pairing file, and stay where you teleported to. Public transport: bus, tram, metro and train that actually stop, waiting at each stop and easing in and out rather than cruising through. Your pairing file is now saved to Files (On My iPhone → Mirage → Pairing) and can be shared off the phone, so reinstalling no longer means redoing the pairing. Fixed: a new teleport no longer snaps back to the previous one after ten seconds; Walk and Drive work on mobile data instead of animating a journey your phone never took; dismissing the Mobile Data prompt no longer leaves “Applying” on screen; a failed teleport shows its reason instead of hiding it behind the pin card, and Retry actually retries. Stopping a spoof no longer drops the tunnel, so teleporting again is fast.",
+          "downloadURL": "https://github.com/xXWapixelXx/Mirage-updates/releases/download/v3.1.0/Mirage.ipa",
+          "size": 11635031,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "3.0.0",
           "date": "2026-07-29",
           "localizedDescription": "Mirage v3.0 — the revamp. Light mode (warm paper, not inverted dark). New home screen: the bottom sheet is gone and the map gets its space back. Live Activity on the Lock Screen and Dynamic Island. Walk/Drive here now works from your real location after a confirmation. Map style swatches, a full-screen Places screen, km/h ↔ mph in Settings, and you can change speed while moving. Settings rebuilt. Considerably faster with a spoof running.",
