@@ -13,6 +13,14 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "3.3.1",
+          "date": "2026-08-05",
+          "localizedDescription": "Three fixes from 3.3.0's new features. Backtrack now returns to your real starting location instead of the previous spoofed spot: after stopping a spoof and starting a new one, the origin was captured from a stale coordinate. Places and Settings stay reachable while spoofing — the live card was covering the search orb, so a search orb now sits in the right-edge rail whenever the big orb is hidden. And the Backtrack quick action no longer overflows its tile; it reads \"Backtrack\", with the full destination name kept on the map's wide button.",
+          "downloadURL": "https://github.com/xXWapixelXx/Mirage-updates/releases/download/v3.3.1/Mirage.ipa",
+          "size": 12142291,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "3.3.0",
           "date": "2026-08-05",
           "localizedDescription": "Retrace your steps, share a spot, and a cleaner face. Backtrack: a spoof remembers where it began, so returning is one tap — Back to <place> on the live card and in Places, offered only when there's an origin to return to. Share: every place card gains a Share button beside Teleport and Save, handing off the coordinate and a Maps link. Places, rebuilt: quick actions up top to paste a coordinate, drop a pin or backtrack; saved spots, routes and recents in grouped cards; and a real empty state with a paste shortcut instead of text over a void. A live status card in Settings shows spoofing state, place, coordinate and link health first instead of last, with a soft pulse while live. Redesigned sign-in and onboarding: one dark world with the pin as the hero and a solid button, replacing a gate whose fields clashed and whose button looked disabled. Fixed: tapping a point of interest now drops your pin or a route waypoint instead of popping Apple's place card (which sometimes even opened Safari); and the VPN link is tidier across reconnects.",
