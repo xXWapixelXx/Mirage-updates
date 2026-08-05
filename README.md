@@ -69,29 +69,24 @@ Mirage ships **two engines** — pick whatever fits how you installed it.
 
 <table>
   <tr>
-    <td align="center" width="33%">
-      <img src="docs/screenshots/onboarding.png" width="240" alt="Onboarding" /><br/>
-      <sub><b>Onboarding</b> — pick your engine</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="docs/screenshots/map.png" width="240" alt="Map" /><br/>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/map.png" width="260" alt="Map" /><br/>
       <sub><b>Map</b> — the whole world, one tap away</sub>
     </td>
-    <td align="center" width="33%">
-      <img src="docs/screenshots/location-drop.png" width="240" alt="Drop a pin" /><br/>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/location-drop.png" width="260" alt="Drop a pin" /><br/>
       <sub><b>Drop a pin</b> — teleport, save or share</sub>
     </td>
   </tr>
   <tr>
-    <td align="center" width="33%">
-      <img src="docs/screenshots/walk-route.png" width="240" alt="Walk a route" /><br/>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/walk-route.png" width="260" alt="Walk a route" /><br/>
       <sub><b>Walk a route</b> — draw a path and stroll it</sub>
     </td>
-    <td align="center" width="33%">
-      <img src="docs/screenshots/settings.png" width="240" alt="Settings" /><br/>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/settings.png" width="260" alt="Settings" /><br/>
       <sub><b>Settings</b> — engines, tunnel &amp; live status</sub>
     </td>
-    <td align="center" width="33%"></td>
   </tr>
 </table>
 
