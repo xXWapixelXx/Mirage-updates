@@ -13,6 +13,14 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "3.3.0",
+          "date": "2026-08-05",
+          "localizedDescription": "Retrace your steps, share a spot, and a cleaner face. Backtrack: a spoof remembers where it began, so returning is one tap — Back to <place> on the live card and in Places, offered only when there's an origin to return to. Share: every place card gains a Share button beside Teleport and Save, handing off the coordinate and a Maps link. Places, rebuilt: quick actions up top to paste a coordinate, drop a pin or backtrack; saved spots, routes and recents in grouped cards; and a real empty state with a paste shortcut instead of text over a void. A live status card in Settings shows spoofing state, place, coordinate and link health first instead of last, with a soft pulse while live. Redesigned sign-in and onboarding: one dark world with the pin as the hero and a solid button, replacing a gate whose fields clashed and whose button looked disabled. Fixed: tapping a point of interest now drops your pin or a route waypoint instead of popping Apple's place card (which sometimes even opened Safari); and the VPN link is tidier across reconnects.",
+          "downloadURL": "https://github.com/xXWapixelXx/Mirage-updates/releases/download/v3.3.0/Mirage.ipa",
+          "size": 12143443,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "3.2.0",
           "date": "2026-08-03",
           "localizedDescription": "Public transport that rides real track. Tram, metro, train and ferry journeys now follow the actual line through the actual stops instead of the road beside it: you walk to a real stop, ride the real geometry, and walk off at the far end. Built from each region's own GTFS feed — the Netherlands ships inside the app, and Berlin and Milan can be added from Settings → Public transport. Journeys allow one change, and a train trip can be fed by a tram to reach the station. Pick a mode straight from the place card: tap More and bus, tram, metro and train sit beside Walk and Drive. The ETA counts the stops, since those are most of what separates a bus from a car over the same road. Buses stay on roads on purpose — a bus drives on the road, so road directions are already right for one, and it still stops and dwells like a bus. Fixed: train and metro journeys were refused for being too far from a stop, because one 800 m walking limit was applied to every mode; a journey that can't ride track now says which of four reasons applies instead of silently using the road; and “Saved” stays said instead of reverting after two seconds as though the save had failed.",
