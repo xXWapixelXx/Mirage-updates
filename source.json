@@ -13,6 +13,14 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "3.4.0",
+          "date": "2026-08-06",
+          "localizedDescription": "Steer from your Lock Screen. A running spoof can now be moved without opening Mirage: the Live Activity carries turn left, go/hold, turn right, a pace button and stop, on the Lock Screen and in the Dynamic Island. Two buttons rotate your heading 45° at a time and one starts or holds you. A draggable floating joystick isn't possible on iOS — Picture-in-Picture is built for video and its window consumes touches before your content sees them — so this is the same idea as buttons you can press. Your places follow you: saved spots back up to your account and merge in on your other devices, renames and deletions included. A first run that shows you the app: onboarding replaces its feature list with a demo that plays itself, narrated beat by beat. A held spoof also drifts a metre or two like real GPS instead of freezing on an exact point (this does not clear iOS's simulated-location flag). Fixed: the WiFi certificate installer no longer spins forever when the local profile server can't get on the network, and Settings no longer claims you're spoofing when you aren't.",
+          "downloadURL": "https://github.com/xXWapixelXx/Mirage-updates/releases/download/v3.4.0/Mirage.ipa",
+          "size": 12813422,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "3.3.1",
           "date": "2026-08-05",
           "localizedDescription": "Three fixes from 3.3.0's new features. Backtrack now returns to your real starting location instead of the previous spoofed spot: after stopping a spoof and starting a new one, the origin was captured from a stale coordinate. Places and Settings stay reachable while spoofing — the live card was covering the search orb, so a search orb now sits in the right-edge rail whenever the big orb is hidden. And the Backtrack quick action no longer overflows its tile; it reads \"Backtrack\", with the full destination name kept on the map's wide button.",
