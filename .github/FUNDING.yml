@@ -1,0 +1,20 @@
+# Puts a "Sponsor" button at the top of this repo and on the release pages.
+#
+# Only `github` is switched on, because it's the one entry that can't be wrong:
+# it's derived from the account name, not from a payment address someone typed.
+# The button appears once GitHub Sponsors is enabled on the account — that needs
+# identity and payout details, which only the account owner can complete, at
+# https://github.com/sponsors/xXWapixelXx/dashboard
+#
+# To add another route, uncomment the line and put the real handle in. Don't
+# guess one: a wrong Ko-fi name or PayPal link sends people's money to a
+# stranger with a similar handle.
+
+github: [xXWapixelXx]
+
+# ko_fi: your-ko-fi-name              # from ko-fi.com/<name>
+# buy_me_a_coffee: your-name          # from buymeacoffee.com/<name>
+# liberapay: your-name
+# polar: your-name
+# custom:                             # any URL — PayPal.me, a crypto page, a shop
+#   - https://paypal.me/<your-name>

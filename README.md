@@ -129,8 +129,19 @@ jailbreak). Full walkthrough → **[SETUP.md](SETUP.md)** · **[pairing guide](P
 Mirage is **invite-only**. Want in?
 https://discord.gg/9c29app56C
 
+## ✦ Support the project
+
+Mirage is free, has no ads and collects nothing. It's also a real amount of work —
+on-device pairing, two spoofing engines, and a build that keeps up with every iOS
+beta Apple ships.
+
+If it's useful to you, you can chip in. Entirely optional, and it unlocks nothing:
+everyone gets the same app either way.
+
 <div align="center">
 
+[![Sponsor](https://img.shields.io/badge/sponsor-@xXWapixelXx-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/xXWapixelXx)
+&nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-@xXWapixelXx-181717?style=for-the-badge&logo=github)](https://github.com/xXWapixelXx)
 &nbsp;
 ![Discord](https://img.shields.io/badge/Discord-wapixel-5865F2?style=for-the-badge&logo=discord&logoColor=white)
