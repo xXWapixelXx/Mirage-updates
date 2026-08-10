@@ -13,7 +13,7 @@
 ![iOS](https://img.shields.io/badge/iOS-27-000000?style=for-the-badge&logo=apple&logoColor=white)
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-native-1575F9?style=for-the-badge&logo=swift&logoColor=white)
 ![Privacy](https://img.shields.io/badge/privacy-on--device-2FE6A8?style=for-the-badge)
-![Version](https://img.shields.io/badge/version-3.4.1-8E7BEF?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-3.5.0-8E7BEF?style=for-the-badge)
 ![No PC](https://img.shields.io/badge/no%20computer-required-2ECC71?style=for-the-badge)
 
 <sub>iOS 18 → 27 · tested on iOS 27 & iPhone 17 Pro · made by Wapixel</sub>
@@ -27,7 +27,8 @@
 Mirage makes your iPhone believe it's somewhere else. Drop a pin anywhere on the
 map, tap **Teleport**, and every app reads that location — not a fake wrapper,
 the real system location. Walk around with a joystick, follow a route you draw,
-or import a GPX track and let Mirage travel it for you.
+import a GPX track and let Mirage travel it, or record a real walk and replay it
+later at the pace you actually moved.
 
 Clean, fast, maps-first SwiftUI. No ads, no tracking, nothing leaves your phone.
 
@@ -55,8 +56,10 @@ Mirage ships **two engines** — pick whatever fits how you installed it.
 | 💾 **Pairing backups** | **New in 3.1** — your pairing file is saved to Files and can be shared off the phone, so reinstalling never means redoing it. |
 | ↩️ **Backtrack** | **New in 3.3** — a spoof remembers where it began, so *Back to <place>* takes you home the way you came. |
 | 📤 **Share a pin** | **New in 3.3** — hand off any spot's coordinate and a Maps link straight from the place card. |
+| ⏺️ **Record & replay a journey** | **New in 3.5** — record a real walk, replay it later and your location retraces it at the pace you actually moved, pauses and all. Play back at 1×, 2×, 4× or 10×. |
+| 🩺 **Built-in troubleshooter** | **New in 3.5** — one screen probes the tunnel, tests the certificate's trust, finds the pairing file and checks the network route, with the fix on the row that failed. |
 | 🔒 **Steer from the Lock Screen** | **New in 3.4** — turn, go/hold, pace and stop live on the Lock Screen and Dynamic Island, so you can move your location without opening the app. |
-| ☁️ **Saved places sync** | **New in 3.4** — favourites back up to your account and appear on your other devices. Renames and deletions travel too. |
+| ☁️ **Places & routes sync** | **New in 3.4, routes in 3.5** — favourites and drawn paths back up to your account and appear on your other devices. Renames and deletions travel too. |
 | 🕹️ **Live joystick** | Move your location in real time, and change pace mid-journey. |
 | 🗺️ **Routes + GPX** | Tap or draw a path, follow it automatically, import & export GPX. |
 | 🌗 **Light & dark** | Auto / Light / Dark, with light mode mixed for paper rather than inverted. |

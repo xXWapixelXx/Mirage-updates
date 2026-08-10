@@ -8,10 +8,18 @@
       "bundleIdentifier": "app.mirage.prestige",
       "developerName": "Wapixel",
       "subtitle": "Teleport your location anywhere.",
-      "localizedDescription": "Native iOS location spoofer with real GPS override, live joystick, route simulation (GPX), and a WiFi fallback.",
+      "localizedDescription": "Native iOS location spoofer with real GPS override, live joystick, route simulation (GPX), journey record & replay, and a WiFi fallback.",
       "tintColor": "6C5CE7",
       "category": "utilities",
       "versions": [
+        {
+          "version": "3.5.0",
+          "date": "2026-08-10",
+          "localizedDescription": "Record a journey, then replay it as a spoof. A saved route is a path walked at whatever pace you pick; a recorded journey is the path AND the timing — go for a walk with Mirage recording, and replaying it later retraces it exactly, pauses, slow stretches and the forty seconds you stood at the crossing included. That's the point, because a line travelled at a perfectly constant speed is the easiest kind of movement to disbelieve. Recording works whether or not you're spoofing: with nothing running it captures your real movement, with a session live it captures the spoofed track. Play back at 1×, 2×, 4× or 10× from Places → Journeys, with a REC badge on the map while it runs. Your routes now follow you too — places already synced to your account, and a path drawn on your iPhone is now on your iPad, renames and deletions included. And there's a troubleshooter that runs the checks itself: Settings → Troubleshoot works down the pairing file, tunnel, network route, certificate trust, VPN, permissions, movement controls and version, with the fix on the same row as the failure. The tunnel is actually probed and the certificate's trust actually tested, not read from a remembered flag, and “Copy this report” bundles the results with the diagnostic log. Fixed: the WiFi certificate step no longer hangs on “Preparing…” — it waits up to twelve seconds for the tunnel to write the certificate and then says what's wrong, and “Save profile to Files” is offered from the start instead of only after an install fails.",
+          "downloadURL": "https://github.com/xXWapixelXx/Mirage-updates/releases/download/v3.5.0/Mirage.ipa",
+          "size": 13021415,
+          "minOSVersion": "18.0"
+        },
         {
           "version": "3.4.1",
           "date": "2026-08-06",
